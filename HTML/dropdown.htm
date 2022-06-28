@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>test page</title>
+<link rel="stylesheet" href=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+	integrity=
+"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+	crossorigin="anonymous">
+
+<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+</script>
+<script src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+</script>
+<script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+</script>
+<script src="../JQuery/dpdw.js"></script>
+<link rel="stylesheet" href="../CSS/dpdw.css">
+</head>
+
+<body>
+<div class="container pt-4">
+	<div class="table-responsive">
+	<table class="table table-bordered" id="empData">
+		<thead>
+		<tr>
+			<th class="text-center">Products</th>
+			<th class="text-center">Action</th>
+		</tr>
+		</thead>
+		<tbody id="UserLocation">
+      <tr>
+        <td class="col-4">
+          <select id="select1"  class="form-control stockCode" name="location">
+            <option value="">select an item</option>
+          <option>Item 1</option>
+          <option>Item 2</option>
+          <option>Item 3</option></select></td>
+          <td class="text-center col-4">
+            <button class="btn btn-danger btn1"type="button" class="kx-repeatable" >X</button>
+            </td>
+      </tr>
+		</tbody>
+	</table>
+</div>
+<button onClick="addNewRow()" class="btn btn-md btn-primary"id="AddNew">Add New Row</button>
+	
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+table, th, td {
+  border: 5px solid black;
+}
+th{
+  background-color: rgb(227, 244, 252);
+}
+.btn1{
+  box-shadow: 2px 2px #f5b1b4;
+}
+.table{
+  float: left;
+}
